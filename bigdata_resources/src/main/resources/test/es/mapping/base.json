@@ -1,0 +1,14 @@
+{
+  "_source": {
+    "enabled": true
+  },
+  "properties": {
+    "datatype":{"type": "keyword"},
+    "idcard":{"type": "keyword"},
+    "name":{"type": "text","fields": {"keyword": {"ignore_above": 256,"type": "keyword"}}},
+    "age":{"type": "long"},
+    "collecttime":{"type": "text","fields": {"keyword": {"ignore_above": 256,"type": "keyword"}}},
+    "imei":{"type": "keyword"}
+  }
+}
+
